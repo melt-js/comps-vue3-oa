@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->
+<html lang="en" class="hel-standalone">
+  <head>
+    <!--
+      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；
+      data-helappend="0"：宿主通过 hel 解析本页时跳过该脚本，
+      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。
+    -->
+    <script
+      data-helappend="0"
+      src="https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/comps-vue3-oa/hel_dist/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comps-vue3-oa</title>
+    <script type="module" crossorigin src="/comps-vue3-oa/hel_dist/assets/index-ChMlifRn.js"></script>
+    <link rel="modulepreload" crossorigin href="/comps-vue3-oa/hel_dist/assets/__uno-DVuZg31J.js">
+    <link rel="modulepreload" crossorigin href="/comps-vue3-oa/hel_dist/assets/vendor-Dgk8SOGf.js">
+    <link rel="modulepreload" crossorigin href="/comps-vue3-oa/hel_dist/assets/shared-runtime-BghYPk72.js">
+    <link rel="stylesheet" crossorigin href="/comps-vue3-oa/hel_dist/assets/style-BHu3p6Xn.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

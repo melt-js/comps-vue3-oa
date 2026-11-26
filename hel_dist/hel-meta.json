@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "comps-vue3-oa",
+    "app_group_name": "comps-vue3-oa",
+    "git_repo_url": "",
+    "online_version": "2026.11.22",
+    "build_version": "2026.11.22",
+    "platform": "unpkg",
+    "create_at": "2026-11-26T03:58:07.628Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-vue3-oa",
+    "sub_app_version": "comps-vue3-oa@2026.11.22",
+    "version_tag": "2026.11.22",
+    "src_map": {
+      "webDirPath": "/comps-vue3-oa/hel_dist",
+      "htmlIndexSrc": "/comps-vue3-oa/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "/comps-vue3-oa/hel_dist/assets/style-BHu3p6Xn.css"
+      ],
+      "chunkJsSrcList": [
+        "/comps-vue3-oa/hel_dist/assets/index-ChMlifRn.js",
+        "/comps-vue3-oa/hel_dist/assets/__uno-DVuZg31J.js",
+        "/comps-vue3-oa/hel_dist/assets/shared-runtime-BghYPk72.js",
+        "/comps-vue3-oa/hel_dist/assets/vendor-Dgk8SOGf.js"
+      ],
+      "staticCssSrcList": [],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "link",
+          "append": false,
+          "attrs": {
+            "href": "/comps-vue3-oa/hel_dist/favicon.ico",
+            "rel": "icon",
+            "type": "image/x-icon"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "/comps-vue3-oa/hel_dist/assets/index-ChMlifRn.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-oa/hel_dist/assets/__uno-DVuZg31J.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-oa/hel_dist/assets/vendor-Dgk8SOGf.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-oa/hel_dist/assets/shared-runtime-BghYPk72.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-oa/hel_dist/assets/style-BHu3p6Xn.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "/comps-vue3-oa/hel_dist/favicon.ico",
+        "/comps-vue3-oa/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"en\" class=\"hel-standalone\">\n  <head>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。\n    -->\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue@3.5.44/dist/vue.global.prod.js\"\n    ></script>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/comps-vue3-oa/hel_dist/favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-vue3-oa</title>\n    <script type=\"module\" crossorigin src=\"/comps-vue3-oa/hel_dist/assets/index-ChMlifRn.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-oa/hel_dist/assets/__uno-DVuZg31J.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-oa/hel_dist/assets/vendor-Dgk8SOGf.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-oa/hel_dist/assets/shared-runtime-BghYPk72.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-oa/hel_dist/assets/style-BHu3p6Xn.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-26T03:58:07.628Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}
